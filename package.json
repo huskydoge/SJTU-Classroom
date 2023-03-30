@@ -1,0 +1,78 @@
+{
+  "name": "ice-001",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "@icon-park/vue-next": "^1.4.2",
+    "animate.css": "^4.1.1",
+    "ant-design-vue": "^3.2.15",
+    "axios": "^1.1.3",
+    "body-parser": "^1.20.1",
+    "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "d3": "^7.6.1",
+    "echarts": "^5.4.0",
+    "echarts-wordcloud": "^2.1.0",
+    "elasticsearch": "^16.7.3",
+    "element-plus": "^2.2.20",
+    "express": "^4.18.2",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.6.0",
+    "knex": "^2.3.0",
+    "magic.css": "^1.4.8",
+    "mpvue-calendar": "^3.0.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "stylus-loader": "^7.1.0",
+    "ts": "^0.2.2",
+    "url": "^0.11.0",
+    "util": "^0.12.5",
+    "valine": "^1.5.1",
+    "vue": "^3.2.13",
+    "vue-baidu-calendar": "^1.0.8",
+    "vue-baidu-map": "^0.21.22",
+    "vue-router": "^4.1.6",
+    "vue3typed": "^0.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "stylus": "^0.59.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "jquery": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
